@@ -1,3 +1,5 @@
+DOCKER_PLATFORM:
+- linux/aarch64
 channel_sources:
 - conda-forge
 channel_targets:
@@ -5,7 +7,7 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-aarch64:alma10
 icu:
-- '78'
+- '79'
 sqlite:
 - '3'
 target_platform:
